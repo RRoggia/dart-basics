@@ -1,5 +1,4 @@
-main () {
-
+main() {
   //Example 1
 
   // dynamic alphaNumeric = "A";
@@ -9,11 +8,10 @@ main () {
   // print( alphaNumeric );
 
   //Example 2
-  
-  
+
   // dynamic alphaNumeric;
   // print( alphaNumeric );
-  
+
   // alphaNumeric = "A";
   // print( alphaNumeric );
 
@@ -37,7 +35,6 @@ main () {
   // name = "Edson";
   // print( name );
 
-
   //Example 5
   // var name = "Pele";
   // print( name );
@@ -50,7 +47,7 @@ main () {
   //Example 6
 
   // dynamic name;
-  
+
   // name = "Pele";
   // print( name );
 
@@ -92,16 +89,13 @@ main () {
   // print( pi );
   // print( piTimesTwo );
 
-    // Example 14
+  // Example 14
   // const list = [];
-  // list.add( 'b' );
-  // print( list );
+  // list.add('b');
+  // print(list);
 
   //Example 15
   // final list = const [];
   // list.add( 'a' );
   // print( list );
-
-  
-
 }
