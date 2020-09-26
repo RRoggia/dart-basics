@@ -1,7 +1,3 @@
-import 'dart:io';
-
-import 'dart:math';
-
 class Point {
   //Use 'this' only when there is a name conflict. Otherwise, Dart style omits the this.
   int x;
@@ -179,6 +175,14 @@ class Writer with Reader, Singer {
   void sing() => print(name);
 }
 
+class Glue {
+  static const color = 'WHITE';
+
+  static void glueTogether(something, anotherThing) {
+    print('$something and $anotherThing are glued together');
+  }
+}
+
 main() {
   var p = Point(2, 2);
   var p2 = new Point(2, 2); // new is optional
@@ -311,4 +315,8 @@ main() {
   Reader writerWalter = Writer();
 
   //static
+  print('what is the glue\'s color ? ${Glue.color}');
+  Glue.glueTogether('photo', 'piece of paper');
+  Glue.glueTogether(1, 3);
+  Glue.glueTogether(singer, writerWalter);
 }
